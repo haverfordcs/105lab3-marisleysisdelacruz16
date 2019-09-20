@@ -1,0 +1,64 @@
+"""
+>>> import PrintPatterns as PP
+>>> PP.PrintThePattern(6, "lower-left")
+*
+**
+***
+****
+*****
+******
+
+>>> PP.PrintThePattern(5, "lower-right")
+    *
+   **
+  ***
+ ****
+*****
+
+>>> PP.PrintThePattern(4, "upper-right")
+****
+ ***
+  **
+   *
+
+"upper-left": example for number_of_rows = 5
+>>> PP.PrintThePattern(5, "upper-left")
+*****
+****
+***
+**
+*
+
+"top-center": example for number_of_rows = 4
+>>> PP.PrintThePattern(4, "top-center")
+*******
+ *****
+  ***
+   *
+
+"bottom-center": example for number_of_rows = 4
+>>> PP.PrintThePattern(4, "bottom-center")
+   *
+  ***
+ *****
+*******
+
+"left-center": example for number_of_rows = 5  !! Do you think number_of_rows should always be odd?
+Put a check on number_of_rows accordingly for this type of pattern
+>>> PP.PrintThePattern(5, "left-center")
+*
+***
+*****
+***
+*
+
+"right-center": example for number_of_rows = 5  !! Do you think number_of_rows should always be odd?
+Put a check on number_of_rows accordingly for this pattern
+>>> PP.PrintThePattern(5, "right-center")
+    *
+  ***
+*****
+  ***
+    *
+
+"""
