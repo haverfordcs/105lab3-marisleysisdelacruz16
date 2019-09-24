@@ -2,7 +2,7 @@ Lab 3: Print Traingular Patterns
 CS105, Haverford College
 Due date: September 24, Midnight | submissions would be accepted through GitHub only unless stated otherwise. 
 
-<replace with your name>
+<Marisleysis De La Cruz>
 
 (1) Similar to the previous labs, you have to clone this repository into your local machine (PyCharm-> VCS-> Checkout from Git), 
 if you are not sure how to do this, read the general instructions (https://bit.ly/2ZypGeY)

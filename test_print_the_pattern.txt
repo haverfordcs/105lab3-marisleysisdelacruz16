@@ -62,3 +62,85 @@ Put a check on number_of_rows accordingly for this pattern
     *
 
 """
+
+# My own test cases
+
+"upper-right": number_of_rows = 3
+>>> PP.PrintThePattern(3, "upper-right")
+***
+ **
+  *
+
+>>> PP.PrintThePattern(8, "lower-left")
+*
+**
+***
+****
+*****
+******
+*******
+********
+
+>>> PP.PrintThePattern(7, "lower-right")
+      *
+     **
+    ***
+   ****
+  *****
+ ******
+*******
+
+
+"upper-left": number_of_rows = 6
+>>> PP.PrintThePattern(6, "upper-left")
+ ******
+ *****
+ ****
+ ***
+ **
+ *
+
+"top-center": number_of_rows = 5
+>>> PP.PrintThePattern(5, "top-center")
+*********
+ *******
+  *****
+   ***
+    *
+
+"bottom-center": number_of_rows = 9
+>>> PP.PrintThePattern(9, "bottom-center")
+         *
+        ***
+       *****
+      *******
+     *********
+    ***********
+   *************
+  ***************
+ *****************
+
+"left-center": number_of_rows = 7
+>>> PP.PrintThePattern(7, "left-center")
+*
+***
+*****
+*******
+*****
+***
+*
+
+"right-center": number_of_rows = 5
+>>> PP.PrintThePattern(5, "right-center")
+    *
+  ***
+*****
+  ***
+    *
+
+Pre-existing conditions:
+
+>>> PP.PrintThePattern(3,"upper")
+Traceback (most recent call last):
+ValueError: Pattern not found!
+
